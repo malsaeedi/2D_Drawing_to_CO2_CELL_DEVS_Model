@@ -1,0 +1,137 @@
+# Tools for converting 2D models into 3D models and scaling cells
+# Developed by Thomas Roller
+# Updated by Mohammed Alsaeedi
+
+import sys
+import json
+from GeneralTools import GeneralTools
+
+# Tools to bring the 2D model into 3D
+class ConvertTools:
+
+    # Function: createHead
+    # Purpose: create the head of the scenario
+    # Arguments:
+    #     length: length of the final scenario
+    #     width: width of the final scenario
+    #     modelConfig: model section of the configuration file
+    # Return:
+    #     head of the final scenario
+    @staticmethod
+    def createHead (length, width, modelConfig):
+        coords = [length, width]
+        if (modelConfig["dimentions"]["height"] > 1):
+            coords += [modelConfig["dimentions"]["height"]]
+
+        return {
+            "scenario" : {
+                "shape" : coords,
+                "wrapped" : False,
+                "default_delay": "transport",
+                "default_cell_type": "CO2_cell",
+                "default_state": {
+                    "counter": -1,
+                    "concentration": 500,
+                    "type": -100,
+                    "breathing_counter": 0
+                },
+                "default_config": {
+                    "CO2_cell": {
+                        "co2_production": 0.026,
+                        "cell_size": 25,
+                        "conc_increase": 243.2,
+                        "base" : 500,
+                        "resp_time" : 1,
+                        "window_conc": 400,
+                        "vent_conc": 500,
+                        "breathing_rate": 5,
+                        "time_active": 500,
+                        "start_time": 50
+                    }
+                },
+                "neighborhood": [
+                    {
+                        "type" : modelConfig["neighbourhood"],
+                        "range" : modelConfig["range"]
+                    }
+                ]
+            },
+            "cells" : []
+        }
+
+    # Function: getHeights
+    # Purpose: get the heights at which to place each cell type
+    # Arguments:
+    #     height: height of the final scenario
+    #     heights: heights subsection of the model section of the configuration file
+    #     cellType: type of cell being checked
+    # Return:
+    #     list where the first and second elements are the lowest and highest levels where the cellType may appear, respectively
+    @staticmethod
+    def getHeights (height, heights, cellType):
+        return [heights["bottom"], heights["top"]]
+
+    # Extent each coordinate in the positive Z direction
+    # This brings the 2D model into 3D space
+    # Function: getExtendedCells
+    # Purpose: extend each coordinate in the positive Z direction
+    # Arguments:
+    #     modelConfig: model section of the configuration file
+    #     cells: list containing cells in 2D space
+    # Return:
+    #     list containing the cells of the extended (3D) scenario
+    @staticmethod
+    def getExtendedCells (modelConfig, cells):
+        allCells = []
+        for cell in cells:
+            # Add given cells at appropriate heights
+            if (modelConfig["walls_only"] and cell["state"]["type"] != -300):
+                continue
+            colour = "white"
+            parent_colour = "white"
+            for key, cellType in modelConfig["colours"].items():
+                if(cellType["type"] == cell["state"]["type"]):
+                    colour = key
+                    parent_colour = cellType["parent_cell"]
+            # Get cell heights
+            bottom, top = modelConfig["colours"][colour]["bottom"], modelConfig["colours"][colour]["top"]
+            
+            # Go through all Z values (floor and ceiling included)
+            for z in range(0, modelConfig["dimentions"]["height"]):
+                # If Z value is within cell's permitted values, add the corresponding cell at that coordinate
+                if (z in range(bottom, top)):
+                    allCells.append(GeneralTools.makeCell(
+                        cell["cell_id"] + [z],
+                        cell["state"]["concentration"],
+                        cell["state"]["type"],
+                        cell["state"]["counter"]
+                    ))
+                # If Z value is not within cell's permitted values AND that cell requires wall or air
+                else:
+                    allCells.append(GeneralTools.makeCell(
+                        cell["cell_id"] + [z],
+                        modelConfig["colours"][parent_colour]["concentration"],
+                        modelConfig["colours"][parent_colour]["type"],
+                        modelConfig["colours"][parent_colour]["counter"]                        
+                    ))
+        return allCells
+    # Function: createStructure
+    # Purpose: combines the head and the cells
+    # Arguments:
+    #     head: the head of the scenario (as generated by createHead)
+    # Return:
+    #     none
+    @staticmethod
+    def createStructure (head, cells):
+        head["cells"] = cells
+        return head
+
+    # Function: getString
+    # Purpose: get a JSON string representation of a Python dictionary
+    # Arguments:
+    #     data: Python dictionary
+    # Return:
+    #     JSON string
+    @staticmethod
+    def getString (data):
+        return json.dumps(data, indent=4)

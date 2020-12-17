@@ -1,0 +1,99 @@
+{
+   "model" : {
+       "dimentions" :{
+            "width" : 30,
+            "length" : 25,
+            "height" : 1
+       },
+        "neighbourhood" : "von_neumann",
+        "range" : 1,
+        "walls_only" : false,
+        "colours" :{
+            "white": {
+                "name" : "air",
+                "parent_cell" : "white",
+                "alpha" : 0,
+                "bottom" : 0,
+                "top" : 12,
+                "concentration" : 500,
+                "type" : -100,
+                "counter" : -1
+            },
+            "cyan": {
+                "name" : "co2_source",
+                "parent_cell" : "white",
+                "alpha" : 100,
+                "bottom" : 0,
+                "top" : 6,
+                "concentration" : 0,
+                "type" : -200,
+                "counter" : -1
+            },
+            "gray": {
+                "name" : "wall",
+                "parent_cell" : "gray",
+                "alpha" : 100,
+                "bottom" : 0,
+                "top" : 12,
+                "concentration" : 0,
+                "type" : -300,
+                "counter" : -1
+            },
+            "green": {
+                "name" : "door",
+                "parent_cell" : "gray",
+                "alpha" : 90,
+                "bottom" : 0,
+                "top" : 8,
+                "concentration" : 500,
+                "type" : -400,
+                "counter" : -1
+            },
+            "yellow": {
+                "name" : "window",
+                "parent_cell" : "gray",
+                "alpha" : 90,
+                "bottom" : 4,
+                "top" : 7,
+                "concentration" : 400,
+                "type" : -500,
+                "counter" : -1
+            },
+            "blue": {
+                "name" : "vent",
+                "parent_cell" : "white",
+                "alpha" : 100,
+                "bottom" : 10,
+                "top" : 11,
+                "concentration" : 300,
+                "type" : -600,
+                "counter" : -1
+            },
+            "red": {
+                "name" : "workstation",
+                "parent_cell" : "white",
+                "alpha" : 100,
+                "bottom" : 0,
+                "top" : 4,
+                "concentration" : 500,
+                "type" : -700,
+                "counter" : -1
+            },
+            "fuchsia": {
+                "name" : "duct",
+                "parent_cell" : "gray",
+                "alpha" : 90,
+                "bottom" : 8,
+                "top" : 10,
+                "concentration" : 500,
+                "type" : -800,
+                "counter" : -1
+            }
+       },
+        "counter" : {
+            "seed" : 5,
+            "minimum" : -9000,
+            "maximum" : -8000
+        }
+    }
+}
