@@ -3,7 +3,7 @@
        "dimentions" :{
             "width" : 30,
             "length" : 25,
-            "height" : 1
+            "height" : 12
        },
         "neighbourhood" : "von_neumann",
         "range" : 1,
