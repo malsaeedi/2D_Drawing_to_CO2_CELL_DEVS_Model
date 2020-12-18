@@ -75,18 +75,18 @@ class ControlPalette(Canvas):
                                                    self.root.config["model"]["counter"]["minimum"],
                                                    self.root.config["model"]["counter"]["maximum"])
         # Load and save image buttons
-        b_load = Button(self, text='open', command=self.load_grid)
+        b_load = Button(self, text='open', command=self.loadGrid)
         b_load.pack(side=LEFT, padx=p_pad, pady=p_pad)
-        b_save = Button(self, text='save', command=self.save_grid)
+        b_save = Button(self, text='save', command=self.saveGrid)
         b_save.pack(side=LEFT, padx=p_pad, pady=p_pad)
         # Add a button to clear the grid
-        b_clear = Button(self, text='clear', command=self.clear_grid)
+        b_clear = Button(self, text='clear', command=self.clearGrid)
         b_clear.pack(side=LEFT, padx=p_pad, pady=p_pad)
         # Add a button to preview in 3d
-        b_clear = Button(self, text='view 3D', command=self.view_model)
+        b_clear = Button(self, text='view 3D', command=self.viewModel)
         b_clear.pack(side=LEFT, padx=p_pad, pady=p_pad)
         # Add a button to create a 2d or 3d CO2 scenario
-        b_clear = Button(self, text='create model', command=self.create_model)
+        b_clear = Button(self, text='create model', command=self.createModel)
         b_clear.pack(side=LEFT, padx=p_pad, pady=p_pad)
     
     def cuboid_data(self, o, size=(1,1,1)):
@@ -111,7 +111,7 @@ class ControlPalette(Canvas):
         return Poly3DCollection(np.concatenate(g),  
                                 facecolors=np.repeat(colors,6, axis=0), **kwargs)
         
-    def view_model(self):
+    def viewModel(self):
         """View the grid in 3d"""
         # Model dimentions
         x_coord = len(self.root.cellGrid.grid)
@@ -156,7 +156,7 @@ class ControlPalette(Canvas):
         plt.show()
 
         
-    def create_model(self):
+    def createModel(self):
         """Convert the grid into a 2d or 3d json scenario"""
         # Generate the head of the model
         head = ConvertTools.createHead(len(self.root.cellGrid.grid), len(self.root.cellGrid.grid[0]), self.root.config["model"])
@@ -204,7 +204,7 @@ class ControlPalette(Canvas):
                     counter))
         return cells
     
-    def clear_grid(self):
+    def clearGrid(self):
         """Reset the grid to the background "UNFILLED" colour."""
         grid = self.root.cellGrid.grid
         for row in grid:
@@ -213,7 +213,7 @@ class ControlPalette(Canvas):
                 cell.border_colour = "black"
                 cell.draw()
                 
-    def load_grid(self):
+    def loadGrid(self):
         # Open the file and read the saved grid
         data = ""
         try:
@@ -249,7 +249,7 @@ class ControlPalette(Canvas):
             self.root.cellGrid.grid[row] = line
         #TODO update the code to open a saved grid with different size (x,y) than config file   
          
-    def save_grid(self):        
+    def saveGrid(self):        
         """Load an image from a provided file."""
         drawing = {}
         grid = self.root.cellGrid.grid
