@@ -1,10 +1,14 @@
 # 2D_Drawing_to_CO2_Model
 GIT THE TOOL:######################################################################
+
 $ git clone https://github.com/malsaeedi/2D_Drawing_to_CO2_CELL_DEVS_Model.git
+
 TOOL DESCRIPTION:##################################################################
+
 Is a tool to simply draw a 2d floorplan and convert it to 2d/3d JSON scenario model.
 
 TOOL FUNCTIONALITIES:##############################################################
+
 	1. Add a new cell type.
 	2. UI to draw a 2d floorplan using the configured cell types colours.
 	3. Preview the 2d drawing as 3d.
@@ -12,7 +16,9 @@ TOOL FUNCTIONALITIES:###########################################################
 	5. Create a 2d/3d scenario for CO2 model.
 
 TOOL CONFIGURATIONS:###############################################################
+
 The tool uses an input config json which consists of the following parts:
+
 1. dimentions: configure the dimentions of the grid (less than 2 for 2d model)
   "dimentions" :{
             "width" : 20,
@@ -27,6 +33,7 @@ The tool uses an input config json which consists of the following parts:
     "walls_only" : false,
 5. colours : configure the type of cells using colours.
 To define a new cell, you should first select a new colour and add the following JSON part under colours:
+
 	"<colour_name>": {
 		"name" : "<cell_name>",
 		"parent_cell" : "<parent_cell_colour>",
@@ -39,6 +46,7 @@ To define a new cell, you should first select a new colour and add the following
     },
 
 TOOL PREREQUESIT LIBRARIES:#############################################
+
 1. python3
 to check the installed python version
 $ python3 --version
@@ -52,12 +60,14 @@ $ pip3 install matplotlib
 $ pip3 install numpy
 
 TO CREATE 2D/3D SCENARIO MODEL:############################################
+
 1. Run the tool by entering the main app folder, opening a bash prompt and using the command python3 Convert.py followed by the path to the config json, e.g python3 Convert.py config/config.json 
 2. The app UI will be initiated and the user can draw a 2d floorplan and preview in 3d and/or create the 2d/3d scenario model.
 3. If press save button, the floorplan will be saved into the saveGrid folder for later use.
 4. If press create model button, a 2d/3d scenario model will be generated and populated to the outputScenario folder to be used by a CADMIUM CO2 based model.
 
 TO USE THE CREATED 2D/3D JSON SCENARIO:#################################
+
 1. Copy the output JSON scenario to the config folder in the targeted Cell-DEVS-CO2_spread_computer_lab/<the model you want to run>  folder and execute this command:
 2. If the output JSON scenario contains a new type of cell, add also the respected code to the co2 model in co2_lab_cell.hpp
 	Example: Adding the DUCT cell (DUCT=-800) which already in the created JSON scenario
