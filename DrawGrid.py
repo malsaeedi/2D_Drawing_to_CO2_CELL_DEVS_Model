@@ -11,8 +11,8 @@ from mpl_toolkits.mplot3d import Axes3D
 from mpl_toolkits.mplot3d.art3d import Poly3DCollection
 from tkinter import *
 from tkinter import filedialog, ttk
-from ConvertTools import ConvertTools
-from GeneralTools import GeneralTools
+from ConvertTool import ConvertTool
+from GenerateTool import GenerateTool
 
 SELECTED_COLOUR = "white"
     
@@ -71,7 +71,7 @@ class ControlPalette(Canvas):
         Canvas.__init__(self, master, width = x*cellSize , height = y)  
         self.root = root
         # Generate random number
-        self.randomGen = GeneralTools.RandomNumber(self.root.config["model"]["counter"]["seed"],
+        self.randomGen = GenerateTool.RandomNumber(self.root.config["model"]["counter"]["seed"],
                                                    self.root.config["model"]["counter"]["minimum"],
                                                    self.root.config["model"]["counter"]["maximum"])
         # Load and save image buttons
@@ -159,14 +159,14 @@ class ControlPalette(Canvas):
     def createModel(self):
         """Convert the grid into a 2d or 3d json scenario"""
         # Generate the head of the model
-        head = ConvertTools.createHead(len(self.root.cellGrid.grid), len(self.root.cellGrid.grid[0]), self.root.config["model"])
+        head = ConvertTool.createHead(len(self.root.cellGrid.grid), len(self.root.cellGrid.grid[0]), self.root.config["model"])
         cells = self.extractCells()
-        model = ConvertTools.createStructure(head, cells)  # Combine the head and the cells        
+        model = ConvertTool.createStructure(head, cells)  # Combine the head and the cells        
         # Export the JSON string
         if(self.root.config["model"]["dimentions"]["height"] > 1): # Check if 2d
-            GeneralTools.export("outputScenario/3d_scenario.json", ConvertTools.getString(model))
+            GenerateTool.export("outputScenario/3d_scenario.json", ConvertTool.getString(model))
         else:
-            GeneralTools.export("outputScenario/2d_scenario.json", ConvertTools.getString(model))
+            GenerateTool.export("outputScenario/2d_scenario.json", ConvertTool.getString(model))
         
     def extractCells(self):
         """Extract cells from the 2d grid"""        
@@ -175,11 +175,11 @@ class ControlPalette(Canvas):
         cells = self.makeCells(self.root.cellGrid.grid, self.root.config["model"]["colours"])
         # If the model is 3D, extend the walls and add a floor and ceiling
         if (z_coord > 1):
-            cells = ConvertTools.getExtendedCells(self.root.config["model"], cells)
+            cells = ConvertTool.getExtendedCells(self.root.config["model"], cells)
             # Add floor & ceiling
             for cell in cells:
                 if ((cell["cell_id"][2] == 0 and cell["state"]["type"] == -100) or (cell["cell_id"][2] == z_coord - 1 and cell["state"]["type"] == -100)):                    
-                    cells.append(GeneralTools.makeCell([cell["cell_id"][0], cell["cell_id"][1], cell["cell_id"][2]], 0, -300, -1))  # floor & Ceiling        
+                    cells.append(GenerateTool.makeCell([cell["cell_id"][0], cell["cell_id"][1], cell["cell_id"][2]], 0, -300, -1))  # floor & Ceiling        
                     
         return sorted(cells, key=lambda item: item["cell_id"]) # return sorted cells to render cell's colors properly
             
@@ -197,7 +197,7 @@ class ControlPalette(Canvas):
                 counter = cellType["counter"]
                 if (cellType["type"] == -700):  # If the current cell is a WORKSTATION
                     counter = self.randomGen.getInt()
-                cells.append(GeneralTools.makeCell(
+                cells.append(GenerateTool.makeCell(
                     [cell.y, cell.x],
                     cellType["concentration"],
                     cellType["type"],

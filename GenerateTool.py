@@ -1,10 +1,9 @@
-# General tools
-# Thomas Roller
+# Developed by Thomas Roller
 
 import math
 import random
 
-class GeneralTools:
+class GenerateTool:
 
     # Function: makeCell
     # Purpose: create a cell with the given properties

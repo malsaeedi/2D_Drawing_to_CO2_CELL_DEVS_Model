@@ -4,10 +4,10 @@
 
 import sys
 import json
-from GeneralTools import GeneralTools
+from GenerateTool import GenerateTool
 
 # Tools to bring the 2D model into 3D
-class ConvertTools:
+class ConvertTool:
 
     # Function: createHead
     # Purpose: create the head of the scenario
@@ -100,7 +100,7 @@ class ConvertTools:
             for z in range(0, modelConfig["dimentions"]["height"]):
                 # If Z value is within cell's permitted values, add the corresponding cell at that coordinate
                 if (z in range(bottom, top)):
-                    allCells.append(GeneralTools.makeCell(
+                    allCells.append(GenerateTool.makeCell(
                         cell["cell_id"] + [z],
                         cell["state"]["concentration"],
                         cell["state"]["type"],
@@ -108,7 +108,7 @@ class ConvertTools:
                     ))
                 # If Z value is not within cell's permitted values AND that cell requires wall or air
                 else:
-                    allCells.append(GeneralTools.makeCell(
+                    allCells.append(GenerateTool.makeCell(
                         cell["cell_id"] + [z],
                         modelConfig["colours"][parent_colour]["concentration"],
                         modelConfig["colours"][parent_colour]["type"],
