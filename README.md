@@ -1,4 +1,6 @@
 # 2D_Drawing_to_CO2_Model
+GIT THE TOOL:######################################################################
+$ git clone https://github.com/malsaeedi/2D_Drawing_to_CO2_CELL_DEVS_Model.git
 TOOL DESCRIPTION:##################################################################
 Is a tool to simply draw a 2d floorplan and convert it to 2d/3d JSON scenario model.
 
