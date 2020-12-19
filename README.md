@@ -5,15 +5,15 @@ $ git clone https://github.com/malsaeedi/2D_Drawing_to_CO2_CELL_DEVS_Model.git
 
 TOOL DESCRIPTION:##################################################################
 
-Is a tool to simply draw a 2d floorplan and convert it to 2d/3d JSON scenario model.
+Is a tool to simply draw a 2d floorplan and convert it to a 2d/3d JSON scenario model.
 
 TOOL FUNCTIONALITIES:##############################################################
 
 	1. Add a new cell type.
-	2. UI to draw a 2d floorplan using the configured cell types colours.
+	2. UI to draw a 2d floorplan using the configured cell types colors.
 	3. Preview the 2d drawing as 3d.
 	4. Save and re-open the 2d drawing.
-	5. Create a 2d/3d scenario for CO2 model.
+	5. Create a 2d/3d scenario for the CO2 model.
 
 TOOL CONFIGURATIONS:###############################################################
 
@@ -63,8 +63,8 @@ TO CREATE 2D/3D SCENARIO MODEL:############################################
 
 1. Run the tool by entering the main app folder, opening a bash prompt and using the command python3 Convert.py followed by the path to the config json, e.g python3 Convert.py config/config.json 
 2. The app UI will be initiated and the user can draw a 2d floorplan and preview in 3d and/or create the 2d/3d scenario model.
-3. If press save button, the floorplan will be saved into the saveGrid folder for later use.
-4. If press create model button, a 2d/3d scenario model will be generated and populated to the outputScenario folder to be used by a CADMIUM CO2 based model.
+3. If press the save button, the floorplan will be saved into the saveGrid folder for later use.
+4. If press the create model button, a 2d/3d scenario model will be generated and populated to the outputScenario folder to be used by a CADMIUM CO2-based model.
 
 TO USE THE CREATED 2D/3D JSON SCENARIO:#################################
 
@@ -126,5 +126,5 @@ TO USE THE CREATED 2D/3D JSON SCENARIO:#################################
 5. Create a folder in the same directory as the executable, name it results
 6. Run the simulation by entering the bin folder, opening a bash prompt and using the command ./co2_lab followed by the path to the json and an optional number of timesteps, e.g ./co2_lab ../config/test.json 
 																						or ./co2_lab ../config/test.json 500
-7. Use the simulation results (output_messages.txt) under results folder and the style JSON file under visulatization folder to visualize the results using the following link: https://staubibr.github.io/arslab-prd/app-simple/index.html
-8. If the new created JSON scenario contains a new type of cell, make sure that you also add the visualization style to the JSON style file. 
+7. Use the simulation results (output_messages.txt) under the results folder and the style JSON file under the visualization folder to visualize the results using the following link: https://staubibr.github.io/arslab-prd/app-simple/index.html
+8. If the newly created JSON scenario contains a new type of cell, make sure that you also add the visualization style to the JSON style file. 

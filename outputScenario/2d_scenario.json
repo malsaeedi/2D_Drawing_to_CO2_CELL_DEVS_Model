@@ -470,8 +470,8 @@
                 9
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -482,7 +482,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -493,7 +493,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -504,7 +504,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -515,7 +515,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -526,7 +526,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -537,7 +537,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -548,7 +548,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -559,7 +559,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -570,7 +570,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -580,8 +580,8 @@
                 19
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -800,8 +800,8 @@
                 9
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -812,7 +812,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -823,7 +823,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -834,7 +834,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -845,7 +845,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -856,7 +856,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -867,7 +867,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -878,7 +878,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -889,7 +889,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -900,7 +900,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -910,8 +910,8 @@
                 19
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -1197,7 +1197,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -1208,7 +1208,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -1527,7 +1527,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -1538,7 +1538,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -1570,8 +1570,8 @@
                 19
             ],
             "state": {
-                "concentration": 500,
-                "type": -800,
+                "concentration": 0,
+                "type": -300,
                 "counter": -1
             }
         },
@@ -1857,7 +1857,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -1868,7 +1868,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -1900,8 +1900,8 @@
                 19
             ],
             "state": {
-                "concentration": 500,
-                "type": -800,
+                "concentration": 0,
+                "type": -300,
                 "counter": -1
             }
         },
@@ -2187,7 +2187,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -2198,7 +2198,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -2517,7 +2517,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -2528,7 +2528,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -2847,7 +2847,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -2858,7 +2858,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -3177,7 +3177,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -3188,7 +3188,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -3350,292 +3350,6 @@
             "cell_id": [
                 10,
                 1
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                2
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                3
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                4
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -400,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                5
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -400,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                6
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                7
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -400,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                8
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -400,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                9
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                10
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                11
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                12
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                13
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                14
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                15
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                16
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                17
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                18
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -100,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                19
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                20
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                21
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                22
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                23
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                24
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -400,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                25
-            ],
-            "state": {
-                "concentration": 500,
-                "type": -400,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                26
-            ],
-            "state": {
-                "concentration": 0,
-                "type": -300,
-                "counter": -1
-            }
-        },
-        {
-            "cell_id": [
-                10,
-                27
             ],
             "state": {
                 "concentration": 500,
@@ -3646,6 +3360,292 @@
         {
             "cell_id": [
                 10,
+                2
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -800,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                3
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                4
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -400,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                5
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -400,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                6
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                7
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -400,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                8
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -400,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                9
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                10
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -100,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                11
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -100,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                12
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -100,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                13
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -100,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                14
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -100,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                15
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -900,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                16
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -900,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                17
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -100,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                18
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -100,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                19
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                20
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                21
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                22
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                23
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                24
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -400,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                25
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -400,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                26
+            ],
+            "state": {
+                "concentration": 0,
+                "type": -300,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
+                27
+            ],
+            "state": {
+                "concentration": 500,
+                "type": -800,
+                "counter": -1
+            }
+        },
+        {
+            "cell_id": [
+                10,
                 28
             ],
             "state": {
@@ -3837,7 +3837,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -3848,7 +3848,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4167,7 +4167,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4178,7 +4178,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4497,7 +4497,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4508,7 +4508,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4760,8 +4760,8 @@
                 9
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -4772,7 +4772,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4783,7 +4783,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4794,7 +4794,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4805,7 +4805,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4816,7 +4816,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4827,7 +4827,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4838,7 +4838,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4849,7 +4849,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4860,7 +4860,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4871,7 +4871,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -4882,7 +4882,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5090,8 +5090,8 @@
                 9
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -5102,7 +5102,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5113,7 +5113,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5124,7 +5124,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5135,7 +5135,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5146,7 +5146,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5157,7 +5157,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5168,7 +5168,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5179,7 +5179,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5190,7 +5190,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5201,7 +5201,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5212,7 +5212,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5487,7 +5487,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5498,7 +5498,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5817,7 +5817,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -5828,7 +5828,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -6147,7 +6147,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -6158,7 +6158,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -6322,8 +6322,8 @@
                 1
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -6333,8 +6333,8 @@
                 2
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -6477,7 +6477,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -6488,7 +6488,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -6807,7 +6807,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -6818,7 +6818,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7137,7 +7137,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7148,7 +7148,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7389,8 +7389,8 @@
                 8
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -7401,7 +7401,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7412,7 +7412,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7423,7 +7423,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7434,7 +7434,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7445,7 +7445,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7456,7 +7456,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7467,7 +7467,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7478,7 +7478,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7489,7 +7489,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7500,7 +7500,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7511,7 +7511,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7522,7 +7522,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7719,8 +7719,8 @@
                 8
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -7731,7 +7731,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7742,7 +7742,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7753,7 +7753,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7764,7 +7764,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7775,7 +7775,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7786,7 +7786,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7797,7 +7797,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7808,7 +7808,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7819,7 +7819,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7830,7 +7830,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7841,7 +7841,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -7852,7 +7852,7 @@
             ],
             "state": {
                 "concentration": 500,
-                "type": -100,
+                "type": -900,
                 "counter": -1
             }
         },
@@ -8126,8 +8126,8 @@
                 15
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },
@@ -8137,8 +8137,8 @@
                 16
             ],
             "state": {
-                "concentration": 0,
-                "type": -300,
+                "concentration": 500,
+                "type": -800,
                 "counter": -1
             }
         },

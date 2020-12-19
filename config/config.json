@@ -80,13 +80,23 @@
                 "counter" : -1
             },
             "fuchsia": {
-                "name" : "duct",
+                "name" : "duct_wall",
                 "parent_cell" : "gray",
                 "alpha" : 90,
                 "bottom" : 8,
                 "top" : 10,
                 "concentration" : 500,
                 "type" : -800,
+                "counter" : -1
+            },
+            "purple": {
+                "name" : "duct_ceiling",
+                "parent_cell" : "white",
+                "alpha" : 90,
+                "bottom" : 8,
+                "top" : 10,
+                "concentration" : 500,
+                "type" : -900,
                 "counter" : -1
             }
        },
