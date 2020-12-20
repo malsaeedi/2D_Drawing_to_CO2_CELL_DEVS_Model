@@ -1,5 +1,5 @@
 # 2D_Drawing_to_CO2_Model
-GIT THE TOOL:######################################################################
+CLONE THE TOOL:####################################################################
 
 $ git clone https://github.com/malsaeedi/2D_Drawing_to_CO2_CELL_DEVS_Model.git
 
@@ -75,41 +75,17 @@ TO USE THE CREATED 2D/3D JSON SCENARIO:#################################
 
 	enum CELL_TYPE {AIR=-100, CO2_SOURCE=-200, IMPERMEABLE_STRUCTURE=-300, DOOR=-400, WINDOW=-500, VENTILATION=-600, WORKSTATION=-700, DUCT=-800};
 
-	then add this code under co2 local_computation function (based on the type of new cell):
+	then add the required code under co2 local_computation function:
 
 	co2 local_computation() const override {
 			.
 			.
 			.
-            case DUCT:{
-                int concentration = 0;
-                int num_neighbors = 0;
-                for(auto neighbors: state.neighbors_state) {
-                    if( neighbors.second.concentration < 0){
-                        assert(false && "co2 concentration cannot be negative");
-                    }
-                    if(neighbors.second.type != IMPERMEABLE_STRUCTURE){
-                        concentration += neighbors.second.concentration;
-                        num_neighbors +=1;
-                    }
-                }
-                new_state.concentration = concentration/num_neighbors;
-
-                if(nextActionList.front().first == '+') {
-                    if (currentLocation == nextActionList.front().second) {
-                        //Arrangement next action
-                        std::pair<char, std::pair<int, int>> newAction;
-                        newAction.first = '-';
-                        newAction.second = currentLocation;
-                        nextActionList.push_back(newAction);
-
-                        nextActionList.pop_front();
-                        new_state.type = CO2_SOURCE;
-                    }
-                }
-
+            case DUCT:
+            .
+            .
+            .
                 break;
-            }
 			.
 			.
 			.
