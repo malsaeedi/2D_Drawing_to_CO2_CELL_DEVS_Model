@@ -21,20 +21,20 @@ The tool uses an input config json which consists of the following parts:
 
 1. dimentions: configure the dimentions of the grid (less than 2 for 2d model)
 
-  "dimentions" :{
-            "width" : 20,
-            "length" : 15,
-            "height" : 12
-       },
+	"dimentions" :{
+	    "width" : 20,
+	    "length" : 15,
+	    "height" : 12
+	},
 2. neighbourhood : configure the shape of neigbourhood cells 
 
 	"neighbourhood" : "moore",
 3. range
 
-    "range" : 1,
+	"range" : 1,
 4. wall_only
 
-    "walls_only" : false,
+	"walls_only" : false,
 5. colours : configure the type of cells using colours.
 To define a new cell, you should first select a new colour and add the following JSON part under colours:
 
@@ -48,7 +48,7 @@ To define a new cell, you should first select a new colour and add the following
 		"concentration" : <co2_concentration>,
 		"type" : <cell_type>,
 		"counter" : <counter>
-    },
+	},
 
 TOOL PREREQUESIT LIBRARIES:#############################################
 
