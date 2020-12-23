@@ -103,11 +103,17 @@ TO USE THE CREATED 2D/3D JSON SCENARIO:#################################
 3. Compile using make/cmake:
 
 	a) open the bash prompt in the Cell-DEVS-CO2_spread_computer_lab/<the model you want to run> folder and execute this command:
+	
 		$ cmake ./
+		
 		$ make
+		
 	or
+	
 		$ make all clean
+		
 	b) this will create the executable co2_lab in the bin folder
+	
 4. Once compiled all changes that are not in the hpp or cpp files do not require recompilation
 5. Create a folder in the same directory as the executable, name it results
 6. Run the simulation by entering the bin folder, opening a bash prompt and using the command ./co2_lab followed by the path to the json and an optional number of timesteps, e.g ./co2_lab ../config/test.json 
