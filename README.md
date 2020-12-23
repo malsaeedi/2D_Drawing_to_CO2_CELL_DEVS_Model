@@ -109,10 +109,6 @@ TO USE THE CREATED 2D/3D JSON SCENARIO:#################################
 		
 		$ make
 		
-	or
-	
-		$ make all clean
-		
 	b) this will create the executable co2_lab in the bin folder
 	
 4. Once compiled all changes that are not in the hpp or cpp files do not require recompilation
