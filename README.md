@@ -53,16 +53,26 @@ To define a new cell, you should first select a new colour and add the following
 TOOL PREREQUESIT LIBRARIES:#############################################
 
 1. python3
+
 to check the installed python version
-$ python3 --version
+
+	$ python3 --version
+
 to install python3
-$ sudo apt-get install python3
+
+	$ sudo apt-get install python3
+
 2. tkinter
-$ sudo apt-get install python-tk
+
+	$ sudo apt-get install python-tk
+
 3. matplotlib
-$ pip3 install matplotlib
+
+	$ pip3 install matplotlib
+
 4. numpy
-$ pip3 install numpy
+
+	$ pip3 install numpy
 
 TO CREATE 2D/3D SCENARIO MODEL:############################################
 
