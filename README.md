@@ -21,17 +21,17 @@ The tool uses an input config json which consists of the following parts:
 
 1. dimentions: configure the dimentions of the grid (less than 2 for 2d model)
 
-	"dimentions" :{
-	    "width" : 20,
-	    "length" : 15,
-	    "height" : 12
-	},
+		"dimentions" :{
+		    "width" : 20,
+		    "length" : 15,
+		    "height" : 12
+		},
 2. neighbourhood : configure the shape of neigbourhood cells 
 
-	"neighbourhood" : "moore",
+		"neighbourhood" : "moore",
 3. range
 
-	"range" : 1,
+		"range" : 1,
 4. wall_only
 
 	"walls_only" : false,
@@ -39,34 +39,34 @@ The tool uses an input config json which consists of the following parts:
 To define a new cell, you should first select a new colour and add the following JSON part under colours:
 
 
-	"<colour_name>": {
-		"name" : "<cell_name>",
-		"parent_cell" : "<parent_cell_colour>",
-		"alpha" : <transperancy>,
-		"bottom" : <bottom>,
-		"top" : <top>,
-		"concentration" : <co2_concentration>,
-		"type" : <cell_type>,
-		"counter" : <counter>
-	},
+		"<colour_name>": {
+			"name" : "<cell_name>",
+			"parent_cell" : "<parent_cell_colour>",
+			"alpha" : <transperancy>,
+			"bottom" : <bottom>,
+			"top" : <top>,
+			"concentration" : <co2_concentration>,
+			"type" : <cell_type>,
+			"counter" : <counter>
+		},
 
 TOOL PREREQUESIT LIBRARIES:#############################################
 
 1. python3
 
-	$ sudo apt-get install python3
+		$ sudo apt-get install python3
 
 2. tkinter
 
-	$ sudo apt-get install python-tk
+		$ sudo apt-get install python-tk
 
 3. matplotlib
 
-	$ pip3 install matplotlib
+		$ pip3 install matplotlib
 
 4. numpy
 
-	$ pip3 install numpy
+		$ pip3 install numpy
 
 TO CREATE 2D/3D SCENARIO MODEL:############################################
 
@@ -85,20 +85,21 @@ TO USE THE CREATED 2D/3D JSON SCENARIO:#################################
 	enum CELL_TYPE {AIR=-100, CO2_SOURCE=-200, IMPERMEABLE_STRUCTURE=-300, DOOR=-400, WINDOW=-500, VENTILATION=-600, WORKSTATION=-700, DUCT=-800};
 
 	then add the required code under co2 local_computation function:
+	
 
-	co2 local_computation() const override {
-			.
-			.
-			.
-            case DUCT:
-            .
-            .
-            .
-                break;
-			.
-			.
-			.
-		}
+		co2 local_computation() const override {
+				.
+				.
+				.
+		    case DUCT:
+		    .
+		    .
+		    .
+			break;
+				.
+				.
+				.
+			}
 
 3. Compile using make/cmake:
 
